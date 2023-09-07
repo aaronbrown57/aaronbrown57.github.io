@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Rubik+Iso&display=swap');
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: aliceblue;
+    padding: 10px;
+    border: solid cadetblue 5px;
+    display: flex;
+    justify-content: right;
+}
+footer {
+    background-color:aliceblue;
+    padding: 10px;
+    border: solid cadetblue 5px;
+    display: flex;
+    justify-content: right;
+    margin: 0;
+}
+a:link {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+a:hover {
+    color:rgb(145, 99, 40);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+#intro {
+    text-align: center;
+    background-color: rgb(178, 233, 235);
+    padding: 25px 0 25px 0;
+}
+#blurb {
+    padding: 10px 10 25px 10;
+    background-color: rgb(178, 233, 235);
+}
+#about {
+    background-color: rgb(178, 233, 235);
+    padding: 25px;
+}
+h1 {
+    font-family: 'Rubik Iso', cursive;
+    color: #0a6eb0;
+    font-size: 2.5em;
+}
+#cybersecurity {
+    position: absolute;
+    text-align: left;
+    margin-left: -550px;
+    border-radius: 1em;
+}
+#cybersecurity2 {
+    position: absolute;
+    margin-left: 350px;
+    border-radius: 1.5em;
+}
+#me {
+    border-radius: 0.75em;
+}
+h2 {
+    font-family: 'Playfair Display', sans-serif;
+    color:hotpink;
+    font-size: 1.75em;
+}
+li {
+    text-align: center;
+}
+hr{
+    border-style: dashed;
+    border-width: .15em;
+    padding: 0;
+    margin: 0;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 0 30px 0;
+    margin: 0;
+}
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+dl {
+    display: inline-grid;
+    padding: 0;
+}
+ul {
+    display: grid;
+    list-style-type: none;
+    padding: 0;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: white;
+    align-items: stretch;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(8, 42, 240, 0.75);
+}
+.three-col {
+    display: grid;
+    float: left;
+    width: 32.5%;
+    padding: .25em;
+    border-radius: 1em;
+}
+.one-col {
+    display: grid;
+    padding-top: 1.5em;
+    padding-left: 21em;
+    padding-right: 21em;
+    width: 50%;
+    background-color: rgb(178, 233, 235);
+}
+.row:after {
+    content: "";
+    display: flex;
+    clear: both;
+}
+form {
+    display: grid;
+    clear:both;
+}
